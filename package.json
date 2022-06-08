@@ -1,0 +1,47 @@
+{
+  "name": "quasar-dasar",
+  "version": "0.0.1",
+  "description": "HR System Management",
+  "productName": "Share | HR Management",
+  "author": "azrielfatur <azriel.fatur1@gmail.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "apexcharts": "^3.33.0",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "quasar": "^2.0.0",
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.14",
+    "vue3-apexcharts": "^1.4.1"
+  },
+  "devDependencies": {
+    "@quasar/app": "^3.0.0",
+    "autoprefixer": "^10.4.0",
+    "miragejs": "^0.1.43",
+    "postcss": "^8.4.5",
+    "quasar-app-extension-qhierarchy": "^1.0.0-alpha.1",
+    "tailwindcss": "^3.0.7"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
